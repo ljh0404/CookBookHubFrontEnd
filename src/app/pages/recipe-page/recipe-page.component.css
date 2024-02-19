@@ -1,0 +1,11 @@
+:host() ::ng-deep .p-multiselect{
+    width: 90%;
+}
+
+:host() ::ng-deep p-inputnumber, .p-inputnumber{
+    width: 85%;
+}
+
+:host() ::ng-deep .p-inputnumber-input{
+    width: 40%;
+}

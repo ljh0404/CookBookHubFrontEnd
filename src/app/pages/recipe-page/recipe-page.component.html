@@ -1,0 +1,455 @@
+
+<div class="p-5 bg-slate-300 rounded-lg">
+  <div class="w-full mb-3">
+    <P class="text-center text-2xl font-serif font-semibold">Recipe Complex Search</P>
+  </div>
+
+  <div>
+    <div class="flex flex-col mb-3">
+      <label for="" class="mb-2">Query</label>
+      <input type="text" pInputText class="p-2 border rounded-md">
+    </div>
+    
+    <p-fieldset legend="Filters" [toggleable]="true">
+      <div class="p-5 rounded-lg bg-slate-200">
+        <div class="grid grid-cols-3 mb-4">
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Cuisine</label>
+            <p-multiSelect class="w-full" [options]="cuisineOptions" placeholder="Select cuisine options"></p-multiSelect>
+          </div>
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Exclude Cuisine</label>
+            <p-multiSelect [options]="cuisineOptions" placeholder="Select cuisine options"></p-multiSelect>
+          </div>
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Diet</label>
+            <p-multiSelect [options]="dietOptions" placeholder="Select diet options"></p-multiSelect>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 mb-4">
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Type</label>
+            <p-multiSelect [options]="typeOptions" placeholder="Select type options"></p-multiSelect>
+          </div>
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Intolerances</label>
+            <p-multiSelect [options]="intoleranceOptions" placeholder="Select intolerance options"></p-multiSelect>
+          </div>
+          <div class="col-span-1 flex flex-col">
+            <label for="" class="mb-2">Max Ready Time</label>
+            <p-inputNumber suffix=" min"> </p-inputNumber>
+          </div>
+        </div>
+        <div class="flex flex-col mb-4">
+          <label for="" class="mb-2">Include Ingredients</label>
+          <input type="text" pInputText class="p-2 border rounded-md">
+        </div>
+        <div class="flex flex-col mb-4">
+          <label for="" class="mb-2">Exclude Ingredients</label>
+          <input type="text" pInputText class="p-2 border rounded-md">
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Carbs(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Carbs(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Protein(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Protein(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Calories(cal)</label>
+            <p-inputNumber suffix=" cal"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Calories(cal)</label>
+            <p-inputNumber suffix=" cal"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Fat(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Fat(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Alcohol(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Alcohol(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Caffeine(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Caffeine(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Copper(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Copper(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Calcium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Calcium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Choline(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Choline(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Cholesterol(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Cholesterol(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Fluoride(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Fluoride(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Saturated Fat(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Saturated Fat</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminA(UI)</label>
+            <p-inputNumber suffix=" UI"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminA(UI)</label>
+            <p-inputNumber suffix=" UI"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminC(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminC(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminD(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminD(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminE(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminE(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminK(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminK(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB1(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB1(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB2(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB2(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB5(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB5(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB3(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB3(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB6(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB6(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min VitaminB12(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max VitaminB12(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Fiber(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Fiber(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Folate(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Folate(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Folic Acid(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Folic Acid(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Iodine(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Iodine(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Iron(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Iron(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Magnesium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Magnesium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Manganese(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Manganese(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Phosphorus(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Phosphorus(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Potassium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Potassium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Selenium(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Selenium(mcg)</label>
+            <p-inputNumber suffix=" mcg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Sodium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Sodium(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Sugar(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Sugar(g)</label>
+            <p-inputNumber suffix=" g"> </p-inputNumber>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-2 mb-4">
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">min Zinc(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+          <div class="col-span-1 grid grid-cols-2">
+            <label for="">max Zinc(mg)</label>
+            <p-inputNumber suffix=" mg"> </p-inputNumber>
+          </div>
+        </div>
+      </div>
+    </p-fieldset>
+  </div>
+
+  <div class="flex justify-center items-center mt-4">
+    <p-button label="Search" severity="secondary" (click)="clickSearch()"></p-button>
+  </div>
+</div>
+<div class="h-6"></div>

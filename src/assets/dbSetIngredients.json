@@ -1,0 +1,143 @@
+{
+    "results": [
+      {
+        "id": 19400,
+        "name": "banana chips",
+        "image": "banana-chips.jpg",
+        "aisle": "Dried Fruits;Produce",
+        "possibleUnits": [
+          "g",
+          "ounce",
+          "oz",
+          "cup",
+          "serving"
+        ],
+        "children": []
+      },
+      {
+        "id": 93671,
+        "name": "banana bread mix",
+        "image": "banana-bread.jpg",
+        "aisle": "Baking",
+        "possibleUnits": [
+          "package",
+          "g",
+          "box",
+          "oz",
+          "cup",
+          "serving"
+        ],
+        "children": []
+      },
+      {
+        "id": 93779,
+        "name": "banana liqueur",
+        "image": "limoncello.jpg",
+        "aisle": "Alcoholic Beverages",
+        "possibleUnits": [
+          "g",
+          "oz",
+          "teaspoon",
+          "cup",
+          "shot",
+          "tablespoon"
+        ],
+        "children": []
+      },
+      {
+        "id": 19318,
+        "name": "banana pudding mix",
+        "image": "vanilla-pudding.png",
+        "aisle": "Baking",
+        "possibleUnits": [
+          "package",
+          "portion",
+          "g",
+          "oz"
+        ],
+        "children": []
+      },
+      {
+        "id": 18019,
+        "name": "banana bread",
+        "image": "quick-bread.png",
+        "aisle": "Bakery/Bread",
+        "possibleUnits": [
+          "piece",
+          "slice",
+          "g",
+          "ounce",
+          "loaf",
+          "oz",
+          "individual loaf",
+          "serving"
+        ],
+        "children": []
+      },
+      {
+        "id": 9040,
+        "name": "banana",
+        "image": "bananas.jpg",
+        "aisle": "Produce",
+        "possibleUnits": [
+          "small",
+          "large",
+          "piece",
+          "slice",
+          "g",
+          "extra small",
+          "medium",
+          "oz",
+          "extra large",
+          "NLEA serving",
+          "cup",
+          "cup mashed"
+        ],
+        "children": [
+          {
+            "id": 1009040,
+            "name": "mashed banana"
+          },
+          {
+            "id": 19400,
+            "name": "banana chips"
+          }
+        ]
+      },
+      {
+        "id": 1009040,
+        "name": "mashed banana",
+        "image": "mixed-fresh-fruit.jpg",
+        "aisle": "Produce",
+        "possibleUnits": [
+          "small",
+          "large",
+          "piece",
+          "g",
+          "medium",
+          "oz",
+          "cup"
+        ],
+        "children": []
+      },
+      {
+        "id": 10011677,
+        "name": "banana shallot",
+        "image": "banana-shallots.jpg",
+        "aisle": "Produce",
+        "possibleUnits": [
+          "clove",
+          "piece",
+          "tbsp chopped",
+          "g",
+          "oz",
+          "teaspoon",
+          "tablespoon"
+        ],
+        "children": []
+      }
+    ],
+    "offset": 0,
+    "number": 8,
+    "totalResults": 14
+  }

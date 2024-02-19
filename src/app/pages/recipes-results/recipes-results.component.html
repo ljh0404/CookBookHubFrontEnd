@@ -1,0 +1,38 @@
+
+<div class="bg-gray-400 px-5 py-3 rounded-md">
+  <p class="text-center text-2xl font-serif font-semibold mt-1">Results</p>
+
+  <div *ngFor="let result of jsonData?.results ; let i = index" class="bg-slate-300 my-4 rounded-lg p-6">
+    <div class="flex justify-center items-center mb-4">
+      <p class="text-xl font-semibold">{{result.title}}</p>
+    </div>
+
+    <div *ngIf="i%2 == 0">
+      <div class="grid grid-cols-7">
+        <div class="col-span-3 flex justify-center items-center">
+            <img class="scale-110 object-contain rounded-lg" [src]=result.image alt="">
+        </div>
+        <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
+          <div class="col-span-4" [innerHTML]="result.summary"></div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="i%2 == 1">
+      <div class="grid grid-cols-7">
+        <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
+          <div class="col-span-4" [innerHTML]="result.summary"></div>
+        </div>
+        <div class="col-span-3 flex justify-center items-center">
+          <img class="scale-110 object-contain rounded-lg" [src]=result.image alt="">
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="flex items-center justify-center mt-4">
+      <p-button label="Details..." (click)="onClickDetails(result)"></p-button>
+    </div>
+  </div>
+
+</div>
