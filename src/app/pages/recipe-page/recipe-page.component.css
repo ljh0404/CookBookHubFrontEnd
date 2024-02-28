@@ -9,3 +9,22 @@
 :host() ::ng-deep .p-inputnumber-input{
     width: 40%;
 }
+
+.montserrat{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+:host() ::ng-deep .p-fieldset-legend-text{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+:host() ::ng-deep .p-button{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+:host() ::ng-deep .p-chips{
+    display: flow;
+}

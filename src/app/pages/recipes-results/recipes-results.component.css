@@ -1,0 +1,16 @@
+.montserrat{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+:host() ::ng-deep .p-button{
+    width: 100%;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+img{
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.03);
+}

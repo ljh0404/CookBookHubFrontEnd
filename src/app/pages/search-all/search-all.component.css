@@ -1,0 +1,22 @@
+:host() ::ng-deep .p-button{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.montserrat{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+::ng-deep .p-tabview-title{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+img{
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.03);
+}

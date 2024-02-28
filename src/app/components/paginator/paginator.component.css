@@ -1,0 +1,7 @@
+:host() ::ng-deep .p-button{
+    background: rgb(106, 87, 87);
+}
+
+:host() ::ng-deep .pi{
+    padding: 4px;
+}

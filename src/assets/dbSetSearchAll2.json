@@ -1,0 +1,656 @@
+{
+    "sorting": "",
+    "filterMapping": {},
+    "filterOptions": [],
+    "activeFilterOptions": [],
+    "query": "burger",
+    "totalResults": 12495,
+    "limit": 20,
+    "offset": 20,
+    "searchResults": [
+      {
+        "name": "Recipes",
+        "type": "products",
+        "totalResults": 54,
+        "totalResultsVariants": 54,
+        "results": [
+          {
+            "id": 664011,
+            "name": "Turkey Burgers",
+            "image": "https://spoonacular.com/recipeImages/664011-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/turkey-burgers-664011",
+            "type": "HTML",
+            "relevance": 10000,
+            "content": "Turkey Burgers might be a good recipe to expand your main course collection. This recipe serves 4. Watching your figure? This dairy free recipe has <b>199 calories</b>, <b>30g of protein</b>, and <b>4g of fat</b> per serving. For <b>$2.43 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. 13 people have made this recipe and would make it again. This recipe from Foodista requires extra ground turkey, egg, zucchini, and paprika. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a <b>reasonably priced</b> recipe for fans of American food. All things considered, we decided this recipe <b>deserves a spoonacular score of 81%</b>. This score is great. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/best-turkey-burgers-1004277\">Best Turkey Burgers</a>, <a href=\"https://spoonacular.com/recipes/turkey-burgers-1371719\">Turkey Burgers</a>, and <a href=\"https://spoonacular.com/recipes/turkey-burgers-138187\">Turkey Burgers</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 642540,
+            "name": "Falafel Burgers",
+            "image": "https://spoonacular.com/recipeImages/642540-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/falafel-burgers-642540",
+            "type": "HTML",
+            "relevance": 9999,
+            "content": "Need a <b>dairy free, lacto ovo vegetarian, and vegan main course</b>? Falafel Burgers could be an excellent recipe to try. This recipe makes 4 servings with <b>710 calories</b>, <b>23g of protein</b>, and <b>35g of fat</b> each. For <b>$1.87 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up garbanzo beans, onion, vegetable oil, and a few other things to make it today. 70 people have tried and liked this recipe. This recipe is typical of American cuisine. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 94%</b>, which is super. Try <a href=\"https://spoonacular.com/recipes/falafel-burgers-1600153\">Falafel burgers</a>, <a href=\"https://spoonacular.com/recipes/falafel-burgers-1353403\">Falafel Burgers</a>, and <a href=\"https://spoonacular.com/recipes/falafel-burgers-308498\">Falafel Burgers</a> for similar recipes.",
+            "dataPoints": []
+          },
+          {
+            "id": 648303,
+            "name": "Itty Bitty Burgers",
+            "image": "https://spoonacular.com/recipeImages/648303-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/itty-bitty-burgers-648303",
+            "type": "HTML",
+            "relevance": 9998,
+            "content": "You can never have too many hor d'oeuvre recipes, so give Itty Bitty Burgers a try. This recipe serves 16 and costs 66 cents per serving. One portion of this dish contains approximately <b>10g of protein</b>, <b>3g of fat</b>, and a total of <b>85 calories</b>. Head to the store and pick up ground beef, toothpicks, salt, and a few other things to make it today. 1 person were glad they tried this recipe. Only a few people really liked this American dish. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It is brought to you by Foodista. With a spoonacular <b>score of 24%</b>, this dish is rather bad. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/itty-bitty-carrot-cake-cookies-61557\">Itty Bitty Carrot Cake Cookies</a>, <a href=\"https://spoonacular.com/recipes/little-bitty-cakes-240362\">Little Bitty Cakes</a>, and <a href=\"https://spoonacular.com/recipes/7-layer-bitty-bites-525899\">7 Layer Bitty Bites</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 635350,
+            "name": "Blue Cheese Burgers",
+            "image": "https://spoonacular.com/recipeImages/635350-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/blue-cheese-burgers-635350",
+            "type": "HTML",
+            "relevance": 9997,
+            "content": "You can never have too many main course recipes, so give Blue Cheese Burgers a try. This recipe serves 4. One portion of this dish contains around <b>45g of protein</b>, <b>37g of fat</b>, and a total of <b>659 calories</b>. For <b>$4.5 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. 7 people have tried and liked this recipe. This recipe from Foodista requires egg, steak sauce, ground sirloin, and ground pepper. It is a <b>rather pricey</b> recipe for fans of American food. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Overall, this recipe earns a <b>solid spoonacular score of 65%</b>. Try <a href=\"https://spoonacular.com/recipes/blue-cheese-burgers-1449231\">Blue Cheese Burgers</a>, <a href=\"https://spoonacular.com/recipes/blue-cheese-burgers-288878\">Blue Cheese Burgers</a>, and <a href=\"https://spoonacular.com/recipes/blue-cheese-burgers-482425\">Blue Cheese Burgers</a> for similar recipes.",
+            "dataPoints": []
+          },
+          {
+            "id": 642695,
+            "name": "Feta Stuffed Burgers",
+            "image": "https://spoonacular.com/recipeImages/642695-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/feta-stuffed-burgers-642695",
+            "type": "HTML",
+            "relevance": 9996,
+            "content": "Feta Stuffed Burgers might be a good recipe to expand your main course recipe box. One serving contains <b>562 calories</b>, <b>52g of protein</b>, and <b>23g of fat</b>. This recipe serves 4. For <b>$4.89 per serving</b>, this recipe <b>covers 50%</b> of your daily requirements of vitamins and minerals. Not a lot of people made this recipe, and 1 would say it hit the spot. It is a <b>pretty expensive</b> recipe for fans of American food. A mixture of tomatoes, hamburger buns, onion, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 86%</b>, which is excellent. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/feta-stuffed-turkey-burgers-99284\">Feta-Stuffed Turkey Burgers</a>, <a href=\"https://spoonacular.com/recipes/garden-salad-feta-stuffed-burgers-566233\">Garden Salad Feta Stuffed Burgers</a>, and <a href=\"https://spoonacular.com/recipes/biftekia-gemista-feta-stuffed-burgers-1318\">Biftekia Gemista (feta Stuffed Burgers)</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 650235,
+            "name": "Loaded Turkey Burgers",
+            "image": "https://spoonacular.com/recipeImages/650235-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/loaded-turkey-burgers-650235",
+            "type": "HTML",
+            "relevance": 9995,
+            "content": "If you want to add more <b>American</b> recipes to your repertoire, Loaded Turkey Burgers might be a recipe you should try. One serving contains <b>611 calories</b>, <b>40g of protein</b>, and <b>37g of fat</b>. For <b>$3.17 per serving</b>, you get a main course that serves 6. 1 person were impressed by this recipe. This recipe from Foodista requires ground turkey, garlic powder, ground pepper, and onion powder. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Overall, this recipe earns a <b>solid spoonacular score of 54%</b>. <a href=\"https://spoonacular.com/recipes/all-american-loaded-burgers-98263\">All-American Loaded Burgers</a>, <a href=\"https://spoonacular.com/recipes/all-american-loaded-burgers-379681\">All-American Loaded Burgers</a>, and <a href=\"https://spoonacular.com/recipes/loaded-bacon-burgers-with-whiskey-caramelized-onions-and-a-giveaway-899966\">Loaded Bacon Burgers with Whiskey Caramelized Onions (and a giveaway!)</a> are very similar to this recipe.",
+            "dataPoints": []
+          },
+          {
+            "id": 649940,
+            "name": "Lentil Veggie Burgers",
+            "image": "https://spoonacular.com/recipeImages/649940-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/lentil-veggie-burgers-649940",
+            "type": "HTML",
+            "relevance": 9994,
+            "content": "Lentil Veggie Burgers requires about <b>45 minutes</b> from start to finish. This recipe serves 20. One serving contains <b>120 calories</b>, <b>5g of protein</b>, and <b>1g of fat</b>. For <b>21 cents per serving</b>, this recipe <b>covers 8%</b> of your daily requirements of vitamins and minerals. If you have nutmeg, carrot, corn, and a few other ingredients on hand, you can make it. This recipe from Foodista has 1 fans. It works well as an American hor d'oeuvre. It is a good option if you're following a <b>dairy free, lacto ovo vegetarian, and vegan</b> diet. Overall, this recipe earns a <b>good spoonacular score of 64%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/lentil-veggie-burgers-312138\">Lentil Veggie Burgers</a>, <a href=\"https://spoonacular.com/recipes/lentil-veggie-burgers-with-creamy-almondaise-761931\">Lentil-Veggie Burgers with Creamy Almondaise</a>, and <a href=\"https://spoonacular.com/recipes/lentil-chickpea-veggie-burgers-with-avocado-green-harissa-580943\">Lentil-Chickpea Veggie Burgers with Avocado Green Harissa</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 991010,
+            "name": "Chicken Ranch Burgers",
+            "image": "https://spoonacular.com/recipeImages/991010-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/chicken-ranch-burgers-991010",
+            "type": "HTML",
+            "relevance": 9993,
+            "content": "If you want to add more <b>American</b> recipes to your repertoire, Chicken Ranch Burgers might be a recipe you should try. This recipe makes 3 servings with <b>365 calories</b>, <b>41g of protein</b>, and <b>11g of fat</b> each. For <b>$1.57 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. 6 people have tried and liked this recipe. It works well as a main course. This recipe from Pink When requires bell pepper, bread crumbs, chicken, and ranch seasoning. It is a good option if you're following a <b>dairy free</b> diet. From preparation to the plate, this recipe takes roughly <b>25 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 86%</b>, which is outstanding. Similar recipes are <a href=\"https://spoonacular.com/recipes/chicken-ranch-burgers-519173\">Chicken Ranch Burgers</a>, <a href=\"https://spoonacular.com/recipes/chicken-ranch-burgers-1409199\">Chicken Ranch Burgers</a>, and <a href=\"https://spoonacular.com/recipes/chicken-ranch-burgers-1657599\">Chicken Ranch Burgers</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 649182,
+            "name": "Lamb and Bacon Burgers",
+            "image": "https://spoonacular.com/recipeImages/649182-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/lamb-and-bacon-burgers-649182",
+            "type": "HTML",
+            "relevance": 9992,
+            "content": "You can never have too many American recipes, so give Lamb and Bacon Burgers a try. For <b>$1.59 per serving</b>, you get a hor d'oeuvre that serves 6. One portion of this dish contains roughly <b>12g of protein</b>, <b>8g of fat</b>, and a total of <b>318 calories</b>. 1 person found this recipe to be yummy and satisfying. If you have bacon, grain rolls, oregano, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>dairy free</b> diet. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 50%</b>, which is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/broiled-bacon-lamb-burgers-526272\">Broiled Bacon Lamb Burgers</a>, <a href=\"https://spoonacular.com/recipes/lamb-bacon-burgers-with-spicy-aioli-1229553\">Lamb-Bacon Burgers with Spicy Aioli</a>, and <a href=\"https://spoonacular.com/recipes/lamb-bacon-burgers-with-spicy-aioli-1290407\">Lamb-Bacon Burgers with Spicy Aioli</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 632300,
+            "name": "Amazing Chicken Burgers",
+            "image": "https://spoonacular.com/recipeImages/632300-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/amazing-chicken-burgers-632300",
+            "type": "HTML",
+            "relevance": 9991,
+            "content": "Forget going out to eat or ordering takeout every time you crave American food. Try making Amazing Chicken Burgers at home. One portion of this dish contains about <b>36g of protein</b>, <b>23g of fat</b>, and a total of <b>417 calories</b>. This recipe serves 3 and costs $2.26 per serving. It is brought to you by Foodista. 2 people found this recipe to be tasty and satisfying. If you have baby spinach, seasoned bread crumbs, roasted peppers, and a few other ingredients on hand, you can make it. It works well as a main course. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Overall, this recipe earns a <b>good spoonacular score of 59%</b>. <a href=\"https://spoonacular.com/recipes/amazing-chicken-burgers-1405841\">Amazing Chicken Burgers</a>, <a href=\"https://spoonacular.com/recipes/amazing-chicken-marinade-99510\">Amazing Chicken Marinade</a>, and <a href=\"https://spoonacular.com/recipes/amazing-chicken-enchiladas-915495\">Amazing Chicken Enchiladas</a> are very similar to this recipe.",
+            "dataPoints": []
+          },
+          {
+            "id": 1096267,
+            "name": "Turkey Burgers with Slaw",
+            "image": "https://spoonacular.com/recipeImages/1096267-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/turkey-burgers-with-slaw-1096267",
+            "type": "HTML",
+            "relevance": 9990,
+            "content": "Turkey Burgers with Slaw could be just the <b>gluten free, dairy free, paleolithic, and primal</b> recipe you've been looking for. For <b>$3.88 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains about <b>46g of protein</b>, <b>25g of fat</b>, and a total of <b>422 calories</b>. This recipe serves 2. This recipe is liked by 1 foodies and cooks. Head to the store and pick up ground turkey, olive oil, cabbage, and a few other things to make it today. It is brought to you by Foodista. It is perfect for <b>The Fourth Of July</b>. Only a few people really liked this American dish. It works well as a main course. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 72%</b>. This score is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/turkey-burgers-with-creamy-romaine-slaw-16680\">Turkey Burgers With Creamy Romaine Slaw</a>, <a href=\"https://spoonacular.com/recipes/turkey-burgers-with-romaine-and-carrot-slaw-569450\">Turkey Burgers with Romaine and Carrot Slaw</a>, and <a href=\"https://spoonacular.com/recipes/thai-turkey-burgers-with-spicy-sriracha-slaw-1031367\">Thai Turkey Burgers with Spicy Sriracha Slaw</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 638566,
+            "name": "Chili Lime Chicken Burgers",
+            "image": "https://spoonacular.com/recipeImages/638566-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/chili-lime-chicken-burgers-638566",
+            "type": "HTML",
+            "relevance": 9989,
+            "content": "The recipe Chili Lime Chicken Burgers could satisfy your American craving in roughly <b>45 minutes</b>. One serving contains <b>746 calories</b>, <b>54g of protein</b>, and <b>41g of fat</b>. For <b>$3.18 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. This recipe is liked by 1 foodies and cooks. It works well as a pretty expensive main course. It is brought to you by Foodista. <b>The Super Bowl</b> will be even more special with this recipe. If you have pepper flakes, lime juice, garlic cloves, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>dairy free</b> diet. Overall, this recipe earns a <b>pretty good spoonacular score of 58%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/chili-lime-chicken-burgers-with-avocado-salsa-1400611\">Chili Lime Chicken Burgers with Avocado Salsa</a>, <a href=\"https://spoonacular.com/recipes/chili-lime-chicken-burgers-with-avocado-salsa-909310\">Chili Lime Chicken Burgers with Avocado Salsa</a>, and <a href=\"https://spoonacular.com/recipes/chili-lime-turkey-burgers-489443\">Chili Lime Turkey Burgers</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 644835,
+            "name": "Gluten Free Hamburger Buns",
+            "image": "https://spoonacular.com/recipeImages/644835-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/gluten-free-hamburger-buns-644835",
+            "type": "HTML",
+            "relevance": 9988,
+            "content": "Gluten Free Hamburger Buns might be just the <b>American</b> recipe you are searching for. One portion of this dish contains about <b>21g of protein</b>, <b>43g of fat</b>, and a total of <b>652 calories</b>. This gluten free and dairy free recipe serves 4 and costs <b>$2.57 per serving</b>. This recipe from Foodista has 1 fans. A mixture of apple cider vinegar, arrowroot flour, salt, and a handful of other ingredients are all it takes to make this recipe so yummy. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 40%</b>, which is solid. Try <a href=\"https://spoonacular.com/recipes/skinny-gluten-free-hamburger-buns-like-one-buns-704307\">Skinny Gluten Free Hamburger Buns (like One Buns!)</a>, <a href=\"https://spoonacular.com/recipes/gluten-free-hamburger-buns-562193\">Gluten Free Hamburger Buns</a>, and <a href=\"https://spoonacular.com/recipes/gluten-free-hamburger-buns-33233\">Gluten-free Hamburger Buns</a> for similar recipes.",
+            "dataPoints": []
+          },
+          {
+            "id": 647296,
+            "name": "Honey Wheat Hamburger Buns",
+            "image": "https://spoonacular.com/recipeImages/647296-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/honey-wheat-hamburger-buns-647296",
+            "type": "HTML",
+            "relevance": 9987,
+            "content": "Need a <b>lacto ovo vegetarian bread</b>? Honey Wheat Hamburger Buns could be a spectacular recipe to try. For <b>52 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains around <b>10g of protein</b>, <b>10g of fat</b>, and a total of <b>387 calories</b>. This recipe serves 8. This recipe from Foodista has 1 fans. A mixture of milk, active yeast, eggs, and a handful of other ingredients are all it takes to make this recipe so yummy. This recipe is typical of American cuisine. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 35%</b>, which is not so amazing. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/homemade-whole-wheat-hamburger-buns-558784\">Homemade Whole Wheat Hamburger Buns</a>, <a href=\"https://spoonacular.com/recipes/healthy-white-wheat-hamburger-buns-250203\">Healthy White-Wheat Hamburger Buns</a>, and <a href=\"https://spoonacular.com/recipes/bread-machine-whole-wheat-hamburger-and-hot-dog-buns-135994\">Bread Machine Whole Wheat Hamburger and Hot Dog Buns</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 638497,
+            "name": "Chickpea and Veggie Burgers",
+            "image": "https://spoonacular.com/recipeImages/638497-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/chickpea-and-veggie-burgers-638497",
+            "type": "HTML",
+            "relevance": 9986,
+            "content": "If you want to add more <b>dairy free, lacto ovo vegetarian, and vegan</b> recipes to your repertoire, Chickpean and Veggie Burgers might be a recipe you should try. This recipe makes 8 servings with <b>270 calories</b>, <b>11g of protein</b>, and <b>7g of fat</b> each. For <b>$1.3 per serving</b>, this recipe <b>covers 22%</b> of your daily requirements of vitamins and minerals. 1 person found this recipe to be flavorful and satisfying. Head to the store and pick up spinach, burger buns, salt, and a few other things to make it today. It works well as an American hor d'oeuvre. From preparation to the plate, this recipe takes about <b>30 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 81%</b>. This score is amazing. Similar recipes are <a href=\"https://spoonacular.com/recipes/chickpea-veggie-burgers-446402\">Chickpea Veggie Burgers</a>, <a href=\"https://spoonacular.com/recipes/chickpea-veggie-burgers-1197147\">Chickpea Veggie Burgers</a>, and <a href=\"https://spoonacular.com/recipes/chickpea-veggie-burgers-1205121\">Chickpea Veggie Burgers</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 1487865,
+            "name": "Easy Cheeseburger Casserole",
+            "image": "https://spoonacular.com/recipeImages/1487865-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/easy-cheeseburger-casserole-1487865",
+            "type": "HTML",
+            "relevance": 9985,
+            "content": "Easy Cheeseburger Casserole might be a good recipe to expand your main course recipe box. One portion of this dish contains about <b>25g of protein</b>, <b>23g of fat</b>, and a total of <b>437 calories</b>. This recipe serves 6. For <b>$1.56 per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about <b>1 hour and 40 minutes</b>. Head to the store and pick up onion, rice, garlic powder, and a few other things to make it today. 1 person found this recipe to be scrumptious and satisfying. It will be a hit at your <b>Autumn</b> event. Not a lot of people really liked this American dish. It is brought to you by Pink When. It is a good option if you're following a <b>gluten free</b> diet. Overall, this recipe earns a <b>rather bad spoonacular score of 35%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/easy-cheeseburger-casserole-1543021\">Easy Cheeseburger Casserole</a>, <a href=\"https://spoonacular.com/recipes/easy-cheeseburger-casserole-1736549\">Easy Cheeseburger Casserole</a>, and <a href=\"https://spoonacular.com/recipes/cheeseburger-casserole-147208\">Cheeseburger Casserole</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 637488,
+            "name": "Chavrie Stuffed Turkey Burgers",
+            "image": "https://spoonacular.com/recipeImages/637488-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/chavrie-stuffed-turkey-burgers-637488",
+            "type": "HTML",
+            "relevance": 9984,
+            "content": "Chavrie Stuffed Turkey Burgers requires around <b>45 minutes</b> from start to finish. This main course has <b>361 calories</b>, <b>45g of protein</b>, and <b>10g of fat</b> per serving. For <b>$3.7 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. 2 people found this recipe to be tasty and satisfying. This recipe is typical of American cuisine. If you have ea. eggs, ½ garlic, ground turkey, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. Overall, this recipe earns a <b>pretty good spoonacular score of 66%</b>. Try <a href=\"https://spoonacular.com/recipes/chavrie-stuffed-grape-leaves-637482\">Chavrie Stuffed Grape Leaves</a>, <a href=\"https://spoonacular.com/recipes/cranberry-turkey-cutlets-with-fresh-chavrie-640424\">Cranberry Turkey Cutlets With Fresh Chavrie</a>, and <a href=\"https://spoonacular.com/recipes/stuffed-turkey-burgers-107132\">Stuffed Turkey Burgers</a> for similar recipes.",
+            "dataPoints": []
+          },
+          {
+            "id": 1095755,
+            "name": "Quinoa and Kidney Bean Burgers",
+            "image": "https://spoonacular.com/recipeImages/1095755-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/quinoa-and-kidney-bean-burgers-1095755",
+            "type": "HTML",
+            "relevance": 9983,
+            "content": "Quinoan and Kidney Bean Burgers might be just the <b>American</b> recipe you are searching for. This recipe serves 4. One serving contains <b>254 calories</b>, <b>12g of protein</b>, and <b>3g of fat</b>. For <b>89 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. It is a good option if you're following a <b>dairy free, lacto ovo vegetarian, and vegan</b> diet. This recipe from Foodista requires quinoa, water, burger buns, and garlic. It works best as a main course, and is done in roughly <b>45 minutes</b>. 1 person were glad they tried this recipe. Overall, this recipe earns a <b>pretty good spoonacular score of 63%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/experimental-cheesy-kidney-bean-burgers-506357\">Experimental Cheesy Kidney Bean Burgers</a>, <a href=\"https://spoonacular.com/recipes/black-bean-quinoa-burgers-574012\">Black Bean Quinoa Burgers</a>, and <a href=\"https://spoonacular.com/recipes/black-bean-quinoa-burgers-1288377\">Black Bean-Quinoa Burgers</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 636595,
+            "name": "Butternut Squash Quinoa Burgers",
+            "image": "https://spoonacular.com/recipeImages/636595-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/butternut-squash-quinoa-burgers-636595",
+            "type": "HTML",
+            "relevance": 9982,
+            "content": "Butternut Squash Quinoa Burgers is a <b>lacto ovo vegetarian</b> main course. This recipe serves 4. One serving contains <b>383 calories</b>, <b>14g of protein</b>, and <b>23g of fat</b>. For <b>$2.3 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. It is brought to you by Foodista. 1 person has made this recipe and would make it again. It is an <b>affordable</b> recipe for fans of American food. If you have ground turmeric, ground cumin, sea salt, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. With a spoonacular <b>score of 52%</b>, this dish is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/butternut-squash-quinoa-burgers-1338219\">Butternut Squash Quinoa Burgers</a>, <a href=\"https://spoonacular.com/recipes/quinoa-with-butternut-squash-cranberries-pistachios-quinoa-stuffing-1210299\">Quinoa with Butternut Squash, Cranberries & Pistachios (Quinoa “Stuffing”)</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-with-butternut-squash-cranberries-pistachios-quinoa-stuffing-527037\">Quinoa with Butternut Squash, Cranberries & Pistachios (Quinoa “Stuffing”)</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 1096060,
+            "name": "Chicken Burgers with Spiced Rub",
+            "image": "https://spoonacular.com/recipeImages/1096060-312x231.jpg",
+            "link": "https://spoonacular.com/recipes/chicken-burgers-with-spiced-rub-1096060",
+            "type": "HTML",
+            "relevance": 9981,
+            "content": "If you want to add more <b>gluten free and primal</b> recipes to your repertoire, Chicken Burgers with Spiced Rub might be a recipe you should try. For <b>$5.64 per serving</b>, you get a main course that serves 4. One portion of this dish contains roughly <b>87g of protein</b>, <b>45g of fat</b>, and a total of <b>849 calories</b>. 1 person were impressed by this recipe. It is an <b>expensive</b> recipe for fans of American food. It is brought to you by Foodista. Head to the store and pick up ground oregano, cilantro, chili powder, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 77%</b>, which is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/spiced-chicken-burgers-1739201\">Spiced Chicken Burgers</a>, <a href=\"https://spoonacular.com/recipes/indian-spiced-chicken-burgers-214372\">Indian-Spiced Chicken Burgers</a>, and <a href=\"https://spoonacular.com/recipes/spiced-meat-rub-210382\">Spiced meat rub</a>.",
+            "dataPoints": []
+          }
+        ]
+      },
+      {
+        "name": "Products",
+        "type": "products",
+        "totalResults": 8580,
+        "totalResultsVariants": 8580,
+        "results": [
+          {
+            "id": 10241240,
+            "name": "Next level burger - began chicken style",
+            "image": "https://spoonacular.com/productImages/10241240-312x231.jpg",
+            "link": "https://spoonacular.com/products/next-level-burger-began-chicken-style-10241240",
+            "type": "HTML",
+            "relevance": 10000,
+            "content": "Next level burger - began chicken style: This product is a super match if you like to buy products that are free of preservatives, vegetarian, vegan, and gluten-free. This product has 17 ingredients (in our experience: the fewer ingredients, the better!)",
+            "dataPoints": []
+          },
+          {
+            "id": 12108700,
+            "name": "Burger bites",
+            "image": "https://spoonacular.com/productImages/12108700-312x231.jpg",
+            "link": "https://spoonacular.com/products/burger-bites-12108700",
+            "type": "HTML",
+            "relevance": 9999,
+            "content": "This product has no ingredients (in our experience: the fewer ingredients, the better!)",
+            "dataPoints": []
+          },
+          {
+            "id": 8546328,
+            "name": "Halal Burger Surgelés x 6,",
+            "image": "https://spoonacular.com/productImages/8546328-312x231.jpg",
+            "link": "https://spoonacular.com/products/halal-burger-surgels-x-6-8546328",
+            "type": "HTML",
+            "relevance": 9998,
+            "content": "Halal Burger Surgelés x 6,: This product is an outstanding fit if you like to buy products that are free of preservatives, vegetarian, vegan, and gluten-free. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has 51 ingredients. According to our research, this product contains no ingredients that you should avoid.",
+            "dataPoints": []
+          },
+          {
+            "id": 8746578,
+            "name": "Croque Burger",
+            "image": "https://spoonacular.com/productImages/8746578-312x231.jpg",
+            "link": "https://spoonacular.com/products/croque-burger-8746578",
+            "type": "HTML",
+            "relevance": 9997,
+            "content": "Croque Burger: This product is an excellent match if you are searching for a healthy hamburger. This product has 50 ingredients (in our experience: the fewer ingredients, the better!) According to our research, this product contains no ingredients that you should avoid.",
+            "dataPoints": []
+          },
+          {
+            "id": 10448350,
+            "name": "Burger de cabillaud",
+            "image": "https://spoonacular.com/productImages/10448350-312x231.jpg",
+            "link": "https://spoonacular.com/products/burger-de-cabillaud-10448350",
+            "type": "HTML",
+            "relevance": 9996,
+            "content": "Burger de cabillaud: This product is a super fit if you like to buy products that are free of preservatives, vegetarian, vegan, and gluten-free. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 10840426,
+            "name": "Hamburger Black Angus",
+            "image": "https://spoonacular.com/productImages/10840426-312x231.jpg",
+            "link": "https://spoonacular.com/products/hamburger-black-angus-10840426",
+            "type": "HTML",
+            "relevance": 9995,
+            "content": "Thinking about having some hamburger today? Hamburger Black Angus is one choice; let's take a closer look. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 179539,
+            "name": "Ahold Quarter Pounders 100% Ground Beef - 20 CT",
+            "image": "https://spoonacular.com/productImages/179539-312x231.jpg",
+            "link": "https://spoonacular.com/products/ahold-quarter-pounders-100-ground-beef-20-ct-179539",
+            "type": "HTML",
+            "relevance": 9994,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 11911610,
+            "name": "hamburger",
+            "image": "https://spoonacular.com/productImages/11911610-312x231.jpg",
+            "link": "https://spoonacular.com/products/hamburger-11911610",
+            "type": "HTML",
+            "relevance": 9993,
+            "content": "This product has 9 ingredients (in our experience: the fewer ingredients, the better!)",
+            "dataPoints": []
+          },
+          {
+            "id": 8555030,
+            "name": "Bacon Cheese Burger",
+            "image": "https://spoonacular.com/productImages/8555030-312x231.jpg",
+            "link": "https://spoonacular.com/products/bacon-cheese-burger-8555030",
+            "type": "HTML",
+            "relevance": 9992,
+            "content": "Thinking about having some cheeseburgers today? Bacon Cheese Burger is one option; let's take a closer look. This product has 64 ingredients (in our experience: the fewer ingredients, the better!) According to our research, this product contains no ingredients that you should avoid.",
+            "dataPoints": []
+          },
+          {
+            "id": 8808588,
+            "name": "Burgers de boeuf",
+            "image": "https://spoonacular.com/productImages/8808588-312x231.jpg",
+            "link": "https://spoonacular.com/products/burgers-de-boeuf-8808588",
+            "type": "HTML",
+            "relevance": 9991,
+            "content": "Burgers de boeuf: This product is an awesome fit if you are searching for a healthy hamburger. This product has no ingredients (in our experience: the fewer ingredients, the better!) According to our research, this product contains no ingredients that you should avoid.",
+            "dataPoints": []
+          },
+          {
+            "id": 9488506,
+            "name": "Maxi burger",
+            "image": "https://spoonacular.com/productImages/9488506-312x231.jpg",
+            "link": "https://spoonacular.com/products/maxi-burger-9488506",
+            "type": "HTML",
+            "relevance": 9990,
+            "content": "Maxi burger: This product is an amazing fit if you like to buy products that are free of preservatives and vegetarian. According to our research, this product contains no ingredients that you should avoid. This product has 38 ingredients (in our experience: the fewer ingredients, the better!)",
+            "dataPoints": []
+          },
+          {
+            "id": 11189214,
+            "name": "Southern Fried Fish Burgers",
+            "image": "https://spoonacular.com/productImages/11189214-312x231.jpg",
+            "link": "https://spoonacular.com/products/southern-fried-fish-burgers-11189214",
+            "type": "HTML",
+            "relevance": 9989,
+            "content": "Southern Fried Fish Burgers: This product is an outstanding fit if you are searching for a healthy hamburger. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 24846531,
+            "name": "Organic Smoked Steak & Burger Rub",
+            "image": "https://spoonacular.com/productImages/24846531-312x231.jpg",
+            "link": "https://spoonacular.com/products/organic-smoked-steak-burger-rub-24846531",
+            "type": "HTML",
+            "relevance": 9988,
+            "content": "In the mood for hamburger? You could try Organic Smoked Steak & Burger Rub. According to our research, this product contains no ingredients that you should avoid. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients. At about 14 cents, this product is inexpensive. If you're on a budget, you might try these cheaper products: <a href=\"/natures-own-butter-buns-p24846531\">Natures Own Butter Buns</a>, <a href=\"/hamburger-helper-cheesy-ranch-burger-p24846531\">Hamburger Helper Cheesy Ranch Burger</a>, <a href=\"/johnsonville-jvl-swiss-cheese-mushroom-burgers-p24846531\">Johnsonville Jvl Swiss Cheese & Mushroom Burgers</a>, and <a href=\"/vlasic-hamburger-dill-chips-p24846531\">Vlasic Hamburger Dill Chips</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 12971202,
+            "name": "Freddy's Steakhouse Famous Steakburger and Fry Seasoning 8.5 Oz",
+            "image": "https://spoonacular.com/productImages/12971202-312x231.jpg",
+            "link": "https://spoonacular.com/products/freddys-steakhouse-famous-steakburger-and-fry-seasoning-85-oz-12971202",
+            "type": "HTML",
+            "relevance": 9987,
+            "content": "We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients. According to our research, this product contains no ingredients that you should avoid. If you're on a budget, you might try these cheaper products: <a href=\"/hot-pockets-stuffed-sandwiches-p12971202\">Hot Pockets Stuffed Sandwiches</a>, <a href=\"/pierre-drive-thru-drive-thru-bacon-cheeseburger-p12971202\">Pierre Drive Thru Drive Thru Bacon Cheeseburger</a>, <a href=\"/pierre-drive-thru-drive-thru-double-cheeseburger-p12971202\">Pierre Drive Thru Drive Thru Double Cheeseburger</a>, and <a href=\"/pierre-cheeseburger-drive-thru-double-p12971202\">Pierre Cheeseburger - Drive Thru Double</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 11020628,
+            "name": "Burger Mix",
+            "image": "https://spoonacular.com/productImages/11020628-312x231.jpg",
+            "link": "https://spoonacular.com/products/burger-mix-11020628",
+            "type": "HTML",
+            "relevance": 9986,
+            "content": "Burger Mix: This product is a great fit if you are searching for a healthy hamburger. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 10493996,
+            "name": "Beyond burger",
+            "image": "https://spoonacular.com/productImages/10493996-312x231.jpg",
+            "link": "https://spoonacular.com/products/beyond-burger-10493996",
+            "type": "HTML",
+            "relevance": 9985,
+            "content": "Beyond burger: This product is a super match if you like to buy products that are free of preservatives, vegetarian, vegan, and gluten-free. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 6588632,
+            "name": "Italian Herb Burger Mix,12 oz",
+            "image": "https://spoonacular.com/productImages/6588632-312x231.jpg",
+            "link": "https://spoonacular.com/products/italian-herb-burger-mix-12-oz-6588632",
+            "type": "HTML",
+            "relevance": 9984,
+            "content": "We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients. If you're on a budget, you might rather put one of these cheaper products on your shopping list: <a href=\"/mccormick-grill-mates-hamburger-seasoning-24-oz-one-24-ounce-container-of-hamburger-seasoning-mix-with-bold-blend-of-ground-peppers-onion-and-savory-garlic-p6588632\">McCormick Grill Mates Hamburger Seasoning, 24 oz - One 24 Ounce Container of Hamburger Seasoning Mix with Bold Blend of Ground Peppers, Onion and Savory Garlic</a>, <a href=\"/4-pack-mccormick-grill-mates-steakhouse-burgers-seasoning-mix-steakhouse-mushroom-087-oz-p6588632\">(4 Pack) McCormick Grill Mates Steakhouse Burgers Seasoning Mix, Steakhouse Mushroom, 0.87 Oz</a>, <a href=\"/totinos-pizza-p6588632\">Totinos Pizza</a>, and <a href=\"/fire-smoke-society-back-porch-burger-seasoning-blend-contains-119-oz-p6588632\">Fire & Smoke Society Back Porch Burger Seasoning Blend, contains 11.9 oz</a>.",
+            "dataPoints": []
+          },
+          {
+            "id": 11291320,
+            "name": "Legendary burger",
+            "image": "https://spoonacular.com/productImages/11291320-312x231.jpg",
+            "link": "https://spoonacular.com/products/legendary-burger-11291320",
+            "type": "HTML",
+            "relevance": 9983,
+            "content": "Legendary burger: This product is a tremendous fit if you are searching for a healthy hamburger. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          },
+          {
+            "id": 10038084,
+            "name": "100% grass-fed beef burgers",
+            "image": "https://spoonacular.com/productImages/10038084-312x231.jpg",
+            "link": "https://spoonacular.com/products/100-grass-fed-beef-burgers-10038084",
+            "type": "HTML",
+            "relevance": 9982,
+            "content": "100% grass-fed beef burgers: This product is a spectacular fit if you are searching for a healthy hamburger. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has 1 ingredient.",
+            "dataPoints": []
+          },
+          {
+            "id": 8919404,
+            "name": "Sauce Big Burger",
+            "image": "https://spoonacular.com/productImages/8919404-312x231.jpg",
+            "link": "https://spoonacular.com/products/sauce-big-burger-8919404",
+            "type": "HTML",
+            "relevance": 9981,
+            "content": "Sauce Big Burger: This product is an excellent fit if you are searching for a healthy hamburger. According to our research, this product contains no ingredients that you should avoid. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients.",
+            "dataPoints": []
+          }
+        ]
+      },
+      {
+        "name": "Menu Items",
+        "type": "products",
+        "totalResults": 3842,
+        "totalResultsVariants": 3842,
+        "results": [
+          {
+            "id": 242081,
+            "name": "Double Cheeseburger",
+            "image": "https://images.spoonacular.com/file/wximages/242081-312x231.png",
+            "link": "https://spoonacular.com/menu-items/hardees-double-cheeseburger-242081",
+            "type": "HTML",
+            "relevance": 10000,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 370293,
+            "name": "Gentle John Burger, Chicken",
+            "image": "https://images.spoonacular.com/file/wximages/370293-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/de-dutch-pannekoek-house-gentle-john-burger-chicken-370293",
+            "type": "HTML",
+            "relevance": 9999,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 247623,
+            "name": "Trifecta Burger w/ Fries",
+            "image": "https://images.spoonacular.com/file/wximages/247623-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/max-ermas-trifecta-burger-w-fries-247623",
+            "type": "HTML",
+            "relevance": 9998,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 333766,
+            "name": "Cheeseburger Italiano (Regular)",
+            "image": "https://images.spoonacular.com/file/wximages/333766-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/tubbys-cheeseburger-italiano-regular-333766",
+            "type": "HTML",
+            "relevance": 9997,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 366200,
+            "name": "Cheeseburger",
+            "image": "https://images.spoonacular.com/file/wximages/366200-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/becks-prime-restaurant-cheeseburger-366200",
+            "type": "HTML",
+            "relevance": 9996,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 359471,
+            "name": "Jimmy's \"Egg\" Burger",
+            "image": "https://images.spoonacular.com/file/wximages/359471-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/jimmys-egg-jimmys-egg-burger-359471",
+            "type": "HTML",
+            "relevance": 9995,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 366208,
+            "name": "Kids Prime Meal Hamburger",
+            "image": "https://images.spoonacular.com/file/wximages/366208-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/becks-prime-restaurant-kids-prime-meal-hamburger-366208",
+            "type": "HTML",
+            "relevance": 9994,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 224407,
+            "name": "Applebee's Grill & Bar Kid Turkey Burger",
+            "image": "https://images.spoonacular.com/file/wximages/224407-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/applebees-grill-bar-kid-turkey-burger-224407",
+            "type": "HTML",
+            "relevance": 9993,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 334012,
+            "name": "Hamburger Sub",
+            "image": "https://images.spoonacular.com/file/wximages/334012-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/ledo-pizza-hamburger-sub-334012",
+            "type": "HTML",
+            "relevance": 9992,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 388384,
+            "name": "Hamburger Double with Fries",
+            "image": "https://images.spoonacular.com/file/wximages/388384-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/papa-ginos-hamburger-double-with-fries-388384",
+            "type": "HTML",
+            "relevance": 9991,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 336279,
+            "name": "Bunless Cheeseburger",
+            "image": "https://images.spoonacular.com/file/wximages/336279-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/five-guys-bunless-cheeseburger-336279",
+            "type": "HTML",
+            "relevance": 9990,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 240616,
+            "name": "Five Guys Bacon Cheeseburger w/ Bun",
+            "image": "https://images.spoonacular.com/file/wximages/240616-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/five-guys-bacon-cheeseburger-w-bun-240616",
+            "type": "HTML",
+            "relevance": 9989,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 243915,
+            "name": "Jack in the Box Jr. Bacon Cheeseburger",
+            "image": "https://images.spoonacular.com/file/wximages/243915-312x231.png",
+            "link": "https://spoonacular.com/menu-items/jack-in-the-box-jr-bacon-cheeseburger-243915",
+            "type": "HTML",
+            "relevance": 9988,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 247599,
+            "name": "Meatball Burger w/ Fries, Max",
+            "image": "https://images.spoonacular.com/file/wximages/247599-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/max-ermas-meatball-burger-w-fries-max-247599",
+            "type": "HTML",
+            "relevance": 9987,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 338113,
+            "name": "Teriyaki Pineapple Swiss Burger - Wheat/Oat Bun",
+            "image": "https://images.spoonacular.com/file/wximages/338113-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/cocos-bakery-teriyaki-pineapple-swiss-burger-wheat-oat-bun-338113",
+            "type": "HTML",
+            "relevance": 9986,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 240624,
+            "name": "Little Bacon Cheeseburger w/ Bun",
+            "image": "https://images.spoonacular.com/file/wximages/240624-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/five-guys-little-bacon-cheeseburger-w-bun-240624",
+            "type": "HTML",
+            "relevance": 9985,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 423077,
+            "name": "Bacon Double Cheeseburger",
+            "image": "https://images.spoonacular.com/file/wximages/423077-312x231.png",
+            "link": "https://spoonacular.com/menu-items/mcdonalds-bacon-double-cheeseburger-423077",
+            "type": "HTML",
+            "relevance": 9984,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 317779,
+            "name": "The American Standard Burger",
+            "image": "https://images.spoonacular.com/file/wximages/317779-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/applebees-grill-bar-the-american-standard-burger-317779",
+            "type": "HTML",
+            "relevance": 9983,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 382155,
+            "name": "Farmer's Cheeseburger, Gluten Free",
+            "image": "https://images.spoonacular.com/file/wximages/382155-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/abc-country-restaurants-farmers-cheeseburger-gluten-free-382155",
+            "type": "HTML",
+            "relevance": 9982,
+            "content": null,
+            "dataPoints": []
+          },
+          {
+            "id": 268473,
+            "name": "Gardein Hawaiian Burger on Multigrain Bun w/ Aloha Sauce",
+            "image": "https://images.spoonacular.com/file/wximages/268473-312x231.jpg",
+            "link": "https://spoonacular.com/menu-items/yard-house-gardein-hawaiian-burger-on-multigrain-bun-w-aloha-sauce-268473",
+            "type": "HTML",
+            "relevance": 9981,
+            "content": null,
+            "dataPoints": []
+          }
+        ]
+      },
+      {
+        "name": "Articles",
+        "type": "custom",
+        "totalResults": 19,
+        "results": []
+      },
+      {
+        "name": "Videos",
+        "type": "custom",
+        "totalResults": 0,
+        "totalResultsVariants": 0,
+        "results": []
+      },
+      {
+        "name": "Simple Foods",
+        "type": "custom",
+        "totalResults": 0,
+        "results": []
+      }
+    ],
+    "expires": 1708659501879
+  }

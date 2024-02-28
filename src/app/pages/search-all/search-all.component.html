@@ -1,112 +1,86 @@
 
 <div class="p-5 bg-slate-300 rounded-lg">
   <div class="w-full mb-3">
-    <P class="text-center text-2xl font-serif font-semibold">Recipe Complex Search</P>
+    <p class="montserrat text-center text-2xl font-semibold">Recipe Complex Search</p>
   </div>
 
-  <div class="grid grid-cols-6 gap-3">
-    <div  class="col-span-5">
-      <div class="flex flex-col mb-3">
-        <label for="" class="mb-2">Query</label>
-        <input type="text" pInputText class="p-2 border rounded-md">
+  <div class="grid grid-cols-5 mb-4 gap-2">
+      
+    <div class="col-span-4 flex items-center justify-center">
+      <div class="w-full">
+        <label for="" class="mb-2 row-span-1 montserrat">Query</label>
+        <input type="text" pInputText class="p-2 border rounded-md w-full row-span-1" [(ngModel)]="query">
       </div>
     </div>
+    <p-button label="Search" class="mt-6" (click)="onClickSearch()"></p-button>
+  </div>
   
-    <div class="col-span-1 flex justify-center items-center mt-4">
-      <p-button label="Search" severity="secondary"></p-button>
+  <div *ngIf="showContent">
+    <app-paginator [lastPage]="lastPage!" [pageSelected]="pageSelected!" (sendMessageEvent)="receiveMessageFromChild($event)"></app-paginator>
+    <div class="mt-5">
+      <p-tabView>
+        <p-tabPanel header="Recipes ({{searchDataResult?.searchResults![0].results.length}})">
+          <div *ngFor="let recipe of searchDataResult?.searchResults![0].results" class="p-4 rounded-lg bg-green-200 my-4">
+            <div class="grid grid-cols-4 mb-4 gap-2">
+        
+              <div class="col-span-3 flex items-center justify-center">
+                <p class="text-xl font-semibold text-center montserrat">{{recipe.name}}</p>
+              </div>
+              <p-button label="See Recipe" (click)="onClickDetails(recipe.id!)" class="col-span-1"></p-button>
+
+            </div>
+            <div class="grid lg:grid-cols-7 grid-cols-1 gap-1">
+              <div class="col-span-3 flex justify-center items-center">
+                  <img class="rounded-lg" [src]=recipe.image alt="">
+              </div>
+              <div class="grid grid-rows-1 col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400 h-72">
+                <div class="row-span-1 overflow-auto" [innerHTML]="recipe.content"></div>
+              </div>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <p-tabPanel header="Products ({{searchDataResult?.searchResults![1].results.length}})">
+          <div *ngFor="let product of searchDataResult?.searchResults![1].results" class="p-4 rounded-lg bg-slate-200 my-4">
+            <div class="pt-3 pb-5"><p class="text-xl text-center font-semibold montserrat">{{product.name}}</p></div>
+            <div class="grid grid-cols-7 gap-1">
+              <div class="col-span-3 flex justify-center items-center">
+                <img class="object-contain rounded-lg" [src]=product.image alt="">
+              </div>
+              <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
+                <div class="col-span-4" [innerHTML]="product.content"></div>
+              </div>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <p-tabPanel header="Articles ({{searchDataResult?.searchResults![3].results.length}})">
+          <div class="grid grid-cols-3 gap-3">
+            <div *ngFor="let article of searchDataResult?.searchResults![3].results" class="p-4 rounded-lg bg-slate-200 my-4">
+              <div class="pt-3 pb-5"><a target="_blank" [href]=article.link class="text-xl text-center text-gray-500 hover:underline hover:text-blue-500 font-bold">{{article.name}}</a></div>
+              <img class="rounded-lg object-fill" [src]=article.image alt="">
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <p-tabPanel header="Videos ({{searchDataResult?.searchResults![4].results.length}})">
+          <div *ngFor="let video of searchDataResult?.searchResults![4].results" class="p-4 rounded-lg bg-slate-200 my-4">
+            <div class="pt-3 pb-5"><p class="text-xl text-center font-semibold">{{video.name}}</p></div>
+            <div class="grid grid-cols-7 gap-1">
+              <div class="col-span-3 flex justify-center items-center">
+                  <img class="object-contain rounded-lg" [src]=video.image alt="">
+              </div>
+              <div class="grid grid-rows-7 gap-2 col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400 h-60">
+                <div class="row-span-6 overflow-auto" [innerHTML]="video.content"></div>
+                <a [href]=video.link target="_blank" class="text-blue-500 hover:underline font-bold row-span-1">See Video</a>
+              </div>
+            </div>
+          </div>
+        </p-tabPanel>
+      </p-tabView>
     </div>
   </div>
-
-
-
-
-  <div>
-    <p-tabView>
-      <p-tabPanel header="Recipes">
-        <div *ngFor="let recipe of searchDataResult?.searchResults![0].results" class="p-4 rounded-lg bg-slate-200 my-4">
-          <div class="pt-3 pb-5"><p class="text-xl text-center font-semibold">{{recipe.name}}</p></div>
-          <div class="grid grid-cols-7">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="scale-110 rounded-lg" [src]=recipe.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="recipe.content"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Products">
-        <div *ngFor="let product of searchDataResult?.searchResults![1].results" class="p-4 rounded-lg bg-slate-200 my-4">
-          <div class="pt-3 pb-5"><p class="text-xl text-center font-semibold">{{product.name}}</p></div>
-          <div class="grid grid-cols-7 gap-1">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="object-contain rounded-lg" [src]=product.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="product.content"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Menu Items">
-        <div *ngFor="let menu_item of searchDataResult?.searchResults![2].results">
-          <div>{{menu_item.name}}</div>
-          <div class="grid grid-cols-7">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="object-contain rounded-lg" [src]=menu_item.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="menu_item.content"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Articles">
-        <div *ngFor="let article of searchDataResult?.searchResults![3].results">
-          <div>{{article.name}}</div>
-          <div class="grid grid-cols-7">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="rounded-lg object-contain" [src]=article.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="article.link"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Videos">
-        <div *ngFor="let video of searchDataResult?.searchResults![4].results">
-          <div>{{video.name}}</div>
-          <div class="grid grid-cols-7">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="object-contain rounded-lg" [src]=video.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="video.content"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Simple Food">
-        <div *ngFor="let simple_food of searchDataResult?.searchResults![5].results">
-          <div>{{simple_food.name}}</div>
-          <div class="grid grid-cols-7">
-            <div class="col-span-3 flex justify-center items-center">
-                <img class="object-contain rounded-lg" [src]=simple_food.image alt="">
-            </div>
-            <div class="col-span-4 p-6 bg-white rounded-lg border-2 border-gray-400">
-              <div class="col-span-4" [innerHTML]="simple_food.content"></div>
-            </div>
-          </div>
-        </div>
-      </p-tabPanel>
-    </p-tabView>
-  </div>
+    
  
 </div>
 <div class="h-6"></div>

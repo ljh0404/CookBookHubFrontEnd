@@ -13,14 +13,15 @@ interface SideNavToggle{
 })
 export class SideBarComponent {
   @Output() onToggleSideNav : EventEmitter<SideNavToggle> = new EventEmitter();
-  expanded = true;
+  expanded = false;
   screenWidth = 0;
   navDataMenu = navBarDataMenu;
   navDataSoporte = navBarDataSoporte;
   mostrarTooltip: boolean = false;
 
   ngOnInit(): void {
-      this.screenWidth = window.innerWidth;
+    this.expanded = true;
+    this.screenWidth = window.innerWidth;
   }
 
   toggleexpanded(): void {

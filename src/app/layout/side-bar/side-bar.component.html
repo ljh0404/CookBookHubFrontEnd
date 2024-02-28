@@ -33,28 +33,5 @@
             </li>
         </ul>
     </div>
-
-    <div class="group-nav">
-        <div class="group-soporte" *ngIf="expanded">SOPORTE</div>
-        <hr class="linea" *ngIf="!expanded">
-        <ul class="sidenav-nav">
-            <li class="sidenav-nav-item" *ngFor="let data of navDataSoporte">
-                <a class="sidenav-nav-link" [routerLink]="data.routerLink"
-                    routerLinkActive="active"
-                    [routerLinkActiveOptions]="{exact: true}"
-                >
-                    <i class="sidenav-link-icon" 
-                    *ngIf="expanded" 
-                    [class]="data.icon" ></i>
-
-                    <i class="sidenav-link-icon" 
-                    *ngIf="!expanded" 
-                    matTooltipPosition="right"
-                    [class]="data.icon" ></i>
-                    <span class="sidenav-link-text" *ngIf="expanded">{{data.label}}</span>
-                </a>
-            </li>
-        </ul>
-    </div>
     <hr class="linea" *ngIf="!expanded">
 </div>

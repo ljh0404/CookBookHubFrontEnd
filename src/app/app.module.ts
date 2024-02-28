@@ -24,7 +24,11 @@ import { TabViewModule } from 'primeng/tabview';
 import { TableModule } from 'primeng/table';
 import { SearchAllComponent } from './pages/search-all/search-all.component';
 import { HeaderComponent } from './layout/header/header.component';
-
+import { FormsModule } from '@angular/forms';
+import { CheckboxModule } from 'primeng/checkbox';
+import { SliderModule } from 'primeng/slider';
+import { ChipsModule } from 'primeng/chips';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +40,7 @@ import { HeaderComponent } from './layout/header/header.component';
     RecipeDetailsComponent,
     SearchAllComponent,
     HeaderComponent,
+    PaginatorComponent,
   ],
   imports: [
     HttpClientModule,
@@ -54,7 +59,11 @@ import { HeaderComponent } from './layout/header/header.component';
     ChipModule,
     DialogModule,
     TabViewModule,
-    TableModule
+    TableModule,
+    FormsModule,
+    CheckboxModule,
+    SliderModule,
+    ChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,34 +1,35 @@
 <div class="p-4 bg-gray-300 rounded-lg">
   <div class="flex justify-center items-center mt-3 mb-6">
-    <p class="text-2xl font-semibold font-serif">{{result?.title}}</p>
+    <p class="text-2xl font-semibold font-serif">{{recipeInformation?.title}}</p>
   </div>
   <div class="mb-4">
-    <p-chip class="mx-1" label=" "><i class="pi pi-user py-2.5 pr-2" style="color: blue"></i> {{result?.servings}} servings</p-chip>
-    <p-chip *ngIf="result?.dairyFree" class="mx-1" label="Dairy Free"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.cheap" class="mx-1" label="Cheap"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.glutenFree" class="mx-1" label="Gluten Free"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.lowFodmap" class="mx-1" label="Low FODMAP"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.sustainable" class="mx-1" label="Sustainable"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.vegan" class="mx-1" label="Vegan"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.vegetarian" class="mx-1" label="Vegetarian"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.veryHealthy" class="mx-1" label="Very Healthy"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
-    <p-chip *ngIf="result?.veryPopular" class="mx-1" label="Very Pupular"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip class="mx-1" label=" "><i class="pi pi-user py-2.5 pr-2" style="color: blue"></i> {{recipeInformation?.servings}} servings</p-chip>
+    <p-chip class="mx-1" label=" "><i class="pi pi-clock py-2.5 pr-2" style="color: blue"></i> {{recipeInformation?.readyInMinutes}} min</p-chip>
+    <p-chip *ngIf="recipeInformation?.dairyFree" class="mx-1" label="Dairy Free"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.cheap" class="mx-1" label="Cheap"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.glutenFree" class="mx-1" label="Gluten Free"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.lowFodmap" class="mx-1" label="Low FODMAP"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.sustainable" class="mx-1" label="Sustainable"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.vegan" class="mx-1" label="Vegan"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.vegetarian" class="mx-1" label="Vegetarian"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.veryHealthy" class="mx-1" label="Very Healthy"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
+    <p-chip *ngIf="recipeInformation?.veryPopular" class="mx-1" label="Very Pupular"><i class="pi pi-check pr-2" style="color: blue"></i></p-chip>
   </div>
   <div class="grid grid-cols-7 gap-4">
     <div class="col-span-3 flex items-center justify-center">
-      <img class="rounded-lg" [src]=result?.image alt="">
+      <img class="rounded-lg" [src]=recipeInformation?.image alt="">
     </div>
     <div class="col-span-4 bg-gray-400 p-4 rounded-lg border-2 border-white">
       <p-tabView>
-        <p-tabPanel header="Ingredients">
+        <p-tabPanel header="Ingredients" class="bg-green-200">
           <ul>
-            <li *ngFor="let ingredient of result?.extendedIngredients">
+            <li *ngFor="let ingredient of recipeInformation?.extendedIngredients">
               <i class="pi pi-plus" style="color: green"></i> {{ingredient.original}}
             </li>
           </ul>
         </p-tabPanel>
         <p-tabPanel header="Nutrition Facts">
-            <p-table [value]="result?.nutrition?.nutrients!" [scrollable]="true" scrollHeight="200px" [resizableColumns]="true" [tableStyle]="{ 'min-width': '5rem'}" styleClass="p-datatable-sm">
+            <p-table [value]="recipeInformation?.nutrition?.nutrients!" [scrollable]="true" scrollHeight="200px" [resizableColumns]="true" [tableStyle]="{ 'min-width': '5rem'}" styleClass="p-datatable-sm">
               <ng-template pTemplate="header">
                   <tr>
                       <th><p class="text-left">Name</p></th>
@@ -45,8 +46,7 @@
               </ng-template>
             </p-table>
         </p-tabPanel>
-    </p-tabView>
-      
+      </p-tabView>
     </div>
   </div>
 
@@ -55,16 +55,25 @@
       <p class="text-lg font-semibold">Steps</p>
     </div>
     <ul>
-      <li *ngFor="let step of result?.analyzedInstructions![0].steps">
+      <li *ngFor="let step of recipeSteps?.steps">
         {{step.number}}. {{step.step}}
       </li>
     </ul>
   </div>
   <div class="pt-3">
     Source:
-    <a [href]="result?.sourceUrl" target="_blank" class="text-blue-500 hover:underline font-bold">
-      {{result?.sourceUrl}}
+    <a [href]="recipeInformation?.sourceUrl" target="_blank" class="text-blue-500 hover:underline font-bold">
+      {{recipeInformation?.sourceUrl}}
     </a>
   </div>
 </div>
+<div class="fixed bottom-4 right-4">
+  <p-button label="Download" icon="pi pi-download" (click)="downloadPdf()"></p-button>
+  <!-- <a href="https://spoonacular.com/recipeCardImages/recipeCard-1708402569754.png" download>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Descargar
+    </button>
+  </a> -->
+</div>
+
 <div class="h-8"></div>
