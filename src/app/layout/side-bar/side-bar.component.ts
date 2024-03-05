@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { navBarDataMenu, navBarDataSoporte } from './side-bar-data';
+import { navBarDataMenu, navBarDataResults } from './side-bar-data';
+import { Router } from '@angular/router';
 
 interface SideNavToggle{
   screenWidth : number;
@@ -16,12 +17,14 @@ export class SideBarComponent {
   expanded = false;
   screenWidth = 0;
   navDataMenu = navBarDataMenu;
-  navDataSoporte = navBarDataSoporte;
+  navDataResults = navBarDataResults;
   mostrarTooltip: boolean = false;
 
+  constructor(private router: Router){}
+
   ngOnInit(): void {
-    this.expanded = true;
     this.screenWidth = window.innerWidth;
+    this.toggleexpanded();
   }
 
   toggleexpanded(): void {
@@ -38,5 +41,9 @@ export class SideBarComponent {
   closeSidenav(): void{
     this.expanded=false;
     this.onToggleSideNav.emit({expanded: this.expanded, screenWidth: this.screenWidth});
+  }
+
+  redirectDashboard(){
+    this.router.navigate(['/dashboard']);
   }
 }

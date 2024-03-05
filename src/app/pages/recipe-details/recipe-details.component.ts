@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Result } from 'src/app/interfaces/recipesInterface';
 import { GeneralService } from 'src/app/services/general.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as jsPDF from 'jspdf';
 import { RecipeInfRootObject } from 'src/app/interfaces/recipeInformationInterface';
 import { RecipeStepsRootObject, Step } from 'src/app/interfaces/recipeStepsInterface';
+import { PersistenceService } from 'src/app/services/persistence.service';
 
 @Component({
   selector: 'app-recipe-details',
@@ -17,13 +18,13 @@ export class RecipeDetailsComponent {
   recipeInformation!: RecipeInfRootObject;
   recipeSteps!: RecipeStepsRootObject;
   result!: Result;
-  imageUrl = 'https://spoonacular.com/recipeCardImages/recipeCard-1708402569754.png';
 
-  constructor(private generalService: GeneralService, private router: Router, private activateRoute: ActivatedRoute){}
+  constructor(private generalService: GeneralService, private router: Router, private activateRoute: ActivatedRoute, private persistenceService: PersistenceService){}
 
   ngOnInit(){
     this.activateRoute.queryParams.subscribe(params => {
       this.recipeId = params['recipeId'];
+      this.persistenceService.setRecipeId(this.recipeId);
       this.generalService.getRecipeInformation(this.recipeId).subscribe(data => {
         this.recipeInformation = data;
         localStorage.setItem('recipeInformation', JSON.stringify(this.recipeInformation));
@@ -57,28 +58,10 @@ export class RecipeDetailsComponent {
         console.error('Error al obtener la imagen de la receta:', err);
       }
     })
-    // this.generalService.getRecipeImg(this.recipeId).subscribe((data) => {
-    //   const doc = new jsPDF.default();
-    //   const img = new Image();
-    //   img.crossOrigin = 'Anonymous';
-    //   img.src = data.url;
-    //   img.onload = () => {
-    //     const canvas = document.createElement('canvas');
-    //     canvas.width = img.width;
-    //     canvas.height = img.height;
-    //     const ctx = canvas.getContext('2d');
-    //     ctx!.drawImage(img, 0, 0);
-    //     const dataURL = canvas.toDataURL('image/png');
-    //     doc.addImage(dataURL, 'PNG', 10, 10, 180, 150); 
-    //     doc.save(this.recipeInformation.title + '.pdf');
-    //   };
-    // },
-    // (error) => {
-    //   console.error('Error al obtener la imagen de la receta:', error);
-    // })
   }
 
   ngOnDestroy(){
-    this.generalService.setResult_Details(undefined!);
+    // this.generalService.setResult_Details(undefined!);
+    this.persistenceService.setRecipeId(undefined!)
   }
 }

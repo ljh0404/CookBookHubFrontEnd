@@ -1,6 +1,6 @@
 .body{
     width: calc(100% - 5rem);
-    height: 100vh;
+    /* height: 100vh; */
     margin-left: 5rem;
     z-index: 0;
     position: relative;
@@ -8,6 +8,11 @@
     transition: all .5s ease;
     background: #f4f7fa;
     padding: 0rem;
+    background-image: url('../../../assets/recipeBg.jpg');
+    background-size: auto;
+    opacity: 0.85;
+    background-repeat: repeat;
+    min-height: 100vh;
 }
 
 .body-trimmed{
@@ -18,3 +23,4 @@
     width: calc(100% - 5rem);
     margin-left: 5rem;
 }
+

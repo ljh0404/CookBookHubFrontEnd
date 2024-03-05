@@ -12,11 +12,16 @@ export const navBarDataMenu = [
     
 ];
 
-export const navBarDataSoporte = [
+export const navBarDataResults = [
     
+    {
+        routerLink: 'recipe-details',
+        icon: 'pi pi-times',
+        label: 'Recipe Results'
+    },
     {
         routerLink: 'ayuda',
         icon: 'pi pi-times',
-        label: 'Ayuda'
+        label: 'Recipe Description'
     }
 ];

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { SearchAllRootObject } from 'src/app/interfaces/searchAllInterface';
 import { GeneralService } from 'src/app/services/general.service';
+import { PersistenceService } from 'src/app/services/persistence.service';
 
 @Component({
   selector: 'app-search-all',
@@ -17,11 +18,9 @@ export class SearchAllComponent {
   lastPage!: number;
   showContent: boolean = false;
 
-  constructor(private generalService: GeneralService, private router:Router){}
+  constructor(private generalService: GeneralService, private router:Router, private persistenceService: PersistenceService){}
 
   ngOnInit(){
-    //test
-    
   }
 
   onClickSearch(){
@@ -43,6 +42,7 @@ export class SearchAllComponent {
   }
 
   onClickDetails(recipeId: number){
+    this.persistenceService.setRecipeId(recipeId);
     this.router.navigate(['/recipe-details'], { queryParams: { recipeId: recipeId }});
     // this.generalService.setResult_Details(result);
   }
@@ -63,5 +63,16 @@ export class SearchAllComponent {
     this.generalService.getSearchAll(newStringQuery).subscribe((data)=> {
       this.searchDataResult = data;
     })
+  }
+
+  validateButton(){
+    if (this.query != undefined){
+      if (this.query.length > 0 )
+        return true;
+      else
+        return false;
+    }
+    else
+      return false
   }
 }

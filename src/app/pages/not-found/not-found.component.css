@@ -1,0 +1,10 @@
+.background {
+    background: rgb(220, 220, 220);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.cardNotFound{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

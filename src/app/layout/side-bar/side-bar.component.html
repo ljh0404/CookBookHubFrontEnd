@@ -1,13 +1,12 @@
 <div class="sidenav" [ngClass]="expanded? 'sidenav-expanded': ''">
     <div class="logo-container">
         <button class="logo" (click)="toggleexpanded()"><i class="pi pi-bars" style="font-size: 1.5rem"></i></button>
-        <div class="logo-text" *ngIf="expanded">
+        <div class="logo-text font-bold text-lg cursor-pointer" *ngIf="expanded" (click)="redirectDashboard()" >
             CookBook Hub
         </div>
         <button class="btn-close flex justify-center items-center" *ngIf="expanded" (click)="closeSidenav()">
             <i class="pi pi-arrow-circle-left" style="font-size: 1.2rem"></i>
         </button>
-
     </div>
 
     <div class="group-nav">
@@ -29,7 +28,6 @@
 
                     <span class="sidenav-link-text" *ngIf="expanded">{{data.label}}</span>
                 </a>
-
             </li>
         </ul>
     </div>

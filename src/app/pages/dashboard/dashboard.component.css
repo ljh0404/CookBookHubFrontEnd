@@ -1,0 +1,28 @@
+.background{
+    min-height: 100vh;
+}
+
+::ng-deep .p-carousel-container{
+    background: white;
+}
+
+::ng-deep .p-carousel .p-carousel-indicators{
+    background: white;
+}
+
+.montserrat{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+::ng-deep .p-carousel .p-carousel-indicators{
+    display: none;
+}
+
+::ng-deep .p-carousel-container{
+    background-color: #64748b !important;
+}
+
+::ng-deep .p-icon
+{
+    color: black;
+}

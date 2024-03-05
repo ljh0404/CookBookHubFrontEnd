@@ -111,8 +111,12 @@
             .sidenav-link-text{
                 margin-left: 1.5rem;
                 font-weight: bold;
-                transition: opacity 0.2s;
             }
+            
+            // .sidenav-link-text.show {
+            //     opacity: 1; /* Cuando se agrega la clase 'show', la opacidad se establece en 1, mostrando el elemento */
+            // }
+            
         }
     }       
 }

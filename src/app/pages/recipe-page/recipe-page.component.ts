@@ -30,6 +30,7 @@ export class RecipePageComponent {
   includedIngredients: string[] | undefined;
   excludedIngredients: string[] | undefined;
   query!: string;
+  validate!: boolean;
 
   constructor(private generalSevice: GeneralService, private router: Router){}
 
@@ -41,6 +42,17 @@ export class RecipePageComponent {
     //   this.jsonData = data;
     //   console.log('Hola!')
     // });
+  }
+
+  validateButton(){
+    if (this.query != undefined){
+      if (this.query.length > 0 )
+        return true;
+      else
+        return false;
+    }
+    else
+      return false
   }
 
   clickSearch(){

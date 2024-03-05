@@ -1,119 +1,122 @@
+<div class="">
+  <div class="p-8">
+    <div class="p-5 bg-slate-300 rounded-lg">
+      <div class="w-full mb-3">
+        <P class="text-center text-2xl font-serif font-semibold montserrat">Recipe Complex Search</P>
+      </div>
 
-<div class="p-5 bg-slate-300 rounded-lg">
-  <div class="w-full mb-3">
-    <P class="text-center text-2xl font-serif font-semibold montserrat">Recipe Complex Search</P>
-  </div>
-
-  <div>
-    <div class="flex flex-col mb-3">
-      <label for="" class="mb-2">Query</label>
-      <input type="text" pInputText class="p-2 border rounded-md" [(ngModel)]="query">
-    </div>
-
-    <div class="mb-4 flex items-center">
-      <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
-    <label class="mx-3" for="ny">More Filters</label>
-    </div>
-    
-    <div *ngIf="checked">
-      <p-fieldset *ngIf="true" legend="Filters">
-        <div class="p-5 rounded-lg bg-slate-200">
-          <div class="grid grid-cols-3 mb-4">
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Cuisine</label>
-              <p-multiSelect class="w-full" [options]="cuisineOptions" [(ngModel)]="cuisineSelected" placeholder="Select cuisine options"></p-multiSelect>
-            </div>
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Exclude Cuisine</label>
-              <p-multiSelect [options]="cuisineOptions" [(ngModel)]="cuisineExcluded" placeholder="Select cuisine options"></p-multiSelect>
-            </div>
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Diet</label>
-              <p-multiSelect [options]="dietOptions" [(ngModel)]="dietSelected" placeholder="Select diet options"></p-multiSelect>
-            </div>
-          </div>
-          <div class="grid grid-cols-3 mb-4">
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Type</label>
-              <p-multiSelect [options]="typeOptions" [(ngModel)]="typeSelected" placeholder="Select type options"></p-multiSelect>
-            </div>
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Intolerances</label>
-              <p-multiSelect [options]="intoleranceOptions" [(ngModel)]="intoleranceSelected" placeholder="Select intolerance options"></p-multiSelect>
-            </div>
-            <div class="col-span-1 flex flex-col">
-              <label for="" class="mb-2 montserrat">Max Ready Time</label>
-              <p-inputNumber suffix=" min" [(ngModel)]="maxReadyTime"> </p-inputNumber>
-            </div>
-          </div>
-          <div class="flex flex-col mb-4">
-            <label for="" class="mb-2 montserrat">Include Ingredients</label>
-            <div class="w-full">
-              <p-chips [(ngModel)]="includedIngredients" class="w-full "></p-chips>
-            </div>
-          </div>
-          <div class="flex flex-col mb-4">
-            <label for="" class="mb-2 montserrat">Exclude Ingredients</label>
-            <div class="w-full">
-              <p-chips [(ngModel)]="excludedIngredients" class="w-full "></p-chips>
-            </div>
-          </div>
-
-          <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
-            <div class="col-span-1 mb-5 w-full flex justify-center items-center">
-              <div class="w-5/6 p-4 bg-white rounded-lg">
-                <p class="text-center mb-3 montserrat">Calories</p>
-                <p-slider [(ngModel)]="rangeCaloriesValues" [range]="true" [min]="36" [max]="1243"></p-slider>
-                <div class="flex justify-between mt-3">
-                  <p class="p-2 bg-gray-400 rounded">{{rangeCaloriesValues[0]}}</p>
-                  <p class="p-2 bg-gray-400 rounded">{{rangeCaloriesValues[1]}}</p>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-span-1 mb-5 w-full flex justify-center items-center">
-              <div class="w-5/6 p-4 bg-white rounded-lg">
-                <p class="text-center mb-3 montserrat">Protein</p>
-                <p-slider [(ngModel)]="rangeProteinValues" [range]="true" [min]="36" [max]="104"></p-slider>
-                <div class="flex justify-between mt-3">
-                  <p class="p-2 bg-gray-400 rounded">{{rangeProteinValues[0]}}</p>
-                  <p class="p-2 bg-gray-400 rounded">{{rangeProteinValues[1]}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
-            <div class="col-span-1 mb-5 w-full flex justify-center items-center">
-              <div class="w-5/6 p-4 bg-white rounded-lg">
-                <p class="text-center mb-3 montserrat">Fat</p>
-                <p-slider [(ngModel)]="rangeFatValues" [range]="true" [min]="0" [max]="100"></p-slider>
-                <div class="flex justify-between mt-3">
-                  <p class="p-2 bg-gray-400 rounded">{{rangeFatValues[0]}}</p>
-                  <p class="p-2 bg-gray-400 rounded">{{rangeFatValues[1]}}</p>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-span-1 first-line:mb-5 w-full flex justify-center items-center">
-              <div class="w-5/6 p-4 bg-white rounded-lg">
-                <p class="text-center mb-3 montserrat">Carbs</p>
-                <p-slider [(ngModel)]="rangeCarbsValues" [range]="true" [min]="0" [max]="106"></p-slider>
-                <div class="flex justify-between mt-3">
-                  <p class="p-2 bg-gray-400 rounded">{{rangeCarbsValues[0]}}</p>
-                  <p class="p-2 bg-gray-400 rounded">{{rangeCarbsValues[1]}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+      <div>
+        <div class="flex flex-col mb-3">
+          <label for="" class="mb-2">Query</label>
+          <input type="text" pInputText class="p-2 border rounded-md" [(ngModel)]="query">
         </div>
-      </p-fieldset>
-    </div>
-  </div>
 
-  <div class="flex justify-center items-center mt-4">
-    <p-button label="Search" severity="secondary" (click)="clickSearch()"></p-button>
+        <div class="mb-4 flex items-center">
+          <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
+        <label class="mx-3" for="ny">More Filters</label>
+        </div>
+        
+        <div *ngIf="checked">
+          <p-fieldset *ngIf="true" legend="Filters">
+            <div class="p-5 rounded-lg bg-slate-200">
+              <div class="grid grid-cols-3 mb-4">
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Cuisine</label>
+                  <p-multiSelect class="w-full" [options]="cuisineOptions" [(ngModel)]="cuisineSelected" placeholder="Select cuisine options"></p-multiSelect>
+                </div>
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Exclude Cuisine</label>
+                  <p-multiSelect [options]="cuisineOptions" [(ngModel)]="cuisineExcluded" placeholder="Select cuisine options"></p-multiSelect>
+                </div>
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Diet</label>
+                  <p-multiSelect [options]="dietOptions" [(ngModel)]="dietSelected" placeholder="Select diet options"></p-multiSelect>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-4">
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Type</label>
+                  <p-multiSelect [options]="typeOptions" [(ngModel)]="typeSelected" placeholder="Select type options"></p-multiSelect>
+                </div>
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Intolerances</label>
+                  <p-multiSelect [options]="intoleranceOptions" [(ngModel)]="intoleranceSelected" placeholder="Select intolerance options"></p-multiSelect>
+                </div>
+                <div class="col-span-1 flex flex-col">
+                  <label for="" class="mb-2 montserrat">Max Ready Time</label>
+                  <p-inputNumber suffix=" min" [(ngModel)]="maxReadyTime"> </p-inputNumber>
+                </div>
+              </div>
+              <div class="flex flex-col mb-4">
+                <label for="" class="mb-2 montserrat">Include Ingredients</label>
+                <div class="w-full">
+                  <p-chips [(ngModel)]="includedIngredients" class="w-full "></p-chips>
+                </div>
+              </div>
+              <div class="flex flex-col mb-4">
+                <label for="" class="mb-2 montserrat">Exclude Ingredients</label>
+                <div class="w-full">
+                  <p-chips [(ngModel)]="excludedIngredients" class="w-full "></p-chips>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
+                <div class="col-span-1 mb-5 w-full flex justify-center items-center">
+                  <div class="w-5/6 p-4 bg-white rounded-lg">
+                    <p class="text-center mb-3 montserrat">Calories</p>
+                    <p-slider [(ngModel)]="rangeCaloriesValues" [range]="true" [min]="36" [max]="1243"></p-slider>
+                    <div class="flex justify-between mt-3">
+                      <p class="p-2 bg-gray-400 rounded">{{rangeCaloriesValues[0]}}</p>
+                      <p class="p-2 bg-gray-400 rounded">{{rangeCaloriesValues[1]}}</p>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-span-1 mb-5 w-full flex justify-center items-center">
+                  <div class="w-5/6 p-4 bg-white rounded-lg">
+                    <p class="text-center mb-3 montserrat">Protein</p>
+                    <p-slider [(ngModel)]="rangeProteinValues" [range]="true" [min]="36" [max]="104"></p-slider>
+                    <div class="flex justify-between mt-3">
+                      <p class="p-2 bg-gray-400 rounded">{{rangeProteinValues[0]}}</p>
+                      <p class="p-2 bg-gray-400 rounded">{{rangeProteinValues[1]}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
+                <div class="col-span-1 mb-5 w-full flex justify-center items-center">
+                  <div class="w-5/6 p-4 bg-white rounded-lg">
+                    <p class="text-center mb-3 montserrat">Fat</p>
+                    <p-slider [(ngModel)]="rangeFatValues" [range]="true" [min]="0" [max]="100"></p-slider>
+                    <div class="flex justify-between mt-3">
+                      <p class="p-2 bg-gray-400 rounded">{{rangeFatValues[0]}}</p>
+                      <p class="p-2 bg-gray-400 rounded">{{rangeFatValues[1]}}</p>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-span-1 first-line:mb-5 w-full flex justify-center items-center">
+                  <div class="w-5/6 p-4 bg-white rounded-lg">
+                    <p class="text-center mb-3 montserrat">Carbs</p>
+                    <p-slider [(ngModel)]="rangeCarbsValues" [range]="true" [min]="0" [max]="106"></p-slider>
+                    <div class="flex justify-between mt-3">
+                      <p class="p-2 bg-gray-400 rounded">{{rangeCarbsValues[0]}}</p>
+                      <p class="p-2 bg-gray-400 rounded">{{rangeCarbsValues[1]}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </p-fieldset>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center mt-4">
+        <p-button label="Search" severity="secondary" (click)="clickSearch()" [disabled]="!validateButton()"></p-button>
+      </div>
+    </div>
+    <div class="h-6"></div>
   </div>
 </div>
-<div class="h-6"></div>

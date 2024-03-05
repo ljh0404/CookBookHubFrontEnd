@@ -3,6 +3,7 @@ import { RecipeRootObject, Result } from 'src/app/interfaces/recipesInterface';
 import { GeneralService } from 'src/app/services/general.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { query } from '@angular/animations';
+import { PersistenceService } from 'src/app/services/persistence.service';
 
 @Component({
   selector: 'app-recipes-results',
@@ -15,7 +16,7 @@ export class RecipesResultsComponent {
   lastPage!: number;
   pageSelected!: number;
 
-  constructor(private generalService: GeneralService, private router: Router, private activateRoute: ActivatedRoute){}
+  constructor(private generalService: GeneralService, private router: Router, private activateRoute: ActivatedRoute, private persistenceService: PersistenceService){}
 
   ngOnInit(){
     this.activateRoute.queryParams.subscribe(params => {
@@ -85,6 +86,7 @@ export class RecipesResultsComponent {
   }
 
   onClickDetails(result: Result){
+    this.persistenceService.setRecipeId(result.id)
     this.router.navigate(['/recipe-details'], { queryParams: { recipeId: result.id }});
     this.generalService.setResult_Details(result);
   }

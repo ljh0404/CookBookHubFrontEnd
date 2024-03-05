@@ -29,6 +29,13 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { SliderModule } from 'primeng/slider';
 import { ChipsModule } from 'primeng/chips';
 import { PaginatorComponent } from './components/paginator/paginator.component';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { CarouselModule } from 'primeng/carousel';
+import { SearchAllRedirectComponent } from './pages/search-all-redirect/search-all-redirect.component';
+import { TabMenuModule } from 'primeng/tabmenu';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +48,9 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
     SearchAllComponent,
     HeaderComponent,
     PaginatorComponent,
+    NotFoundComponent,
+    DashboardComponent,
+    SearchAllRedirectComponent,
   ],
   imports: [
     HttpClientModule,
@@ -63,7 +73,10 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
     FormsModule,
     CheckboxModule,
     SliderModule,
-    ChipsModule
+    ChipsModule,
+    BreadcrumbModule,
+    CarouselModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

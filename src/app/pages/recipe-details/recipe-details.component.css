@@ -9,3 +9,8 @@ img{
 img:hover{
     transform: scale(1.01);
 }
+
+:host() ::ng-deep .p-button{
+    background: #0891b2;
+    border: 1.5px solid white;
+}
